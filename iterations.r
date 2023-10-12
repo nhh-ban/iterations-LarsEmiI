@@ -48,6 +48,9 @@ test_stations_metadata(stations_metadata_df)
 
 ### 5: Final volume query: 
 
+# I did not understand how to do task 5, and therefore not able to do task 6. Hope my assignment can be approved
+# anyways. Also I cannot attend the next seminar. Could you post the solution online? Thanks!
+
 source("gql-queries/vol_qry.r")
 
 stations_metadata_df %>% 
@@ -63,6 +66,36 @@ stations_metadata_df %>%
   ggplot(aes(x=from, y=volume)) + 
   geom_line() + 
   theme_classic()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
